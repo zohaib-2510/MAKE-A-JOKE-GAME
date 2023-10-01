@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>MAKE-A-JOKE | ZOHAIB SHEHZAD</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@400;500&family=Gochi+Hand&family=Great+Vibes&family=Handlee&family=Indie+Flower&family=Kaushan+Script&family=Lumanosimo&family=Molengo&family=Montserrat&family=Mooli&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Staatliches&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%; display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Architects Daughter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Molengo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Staatliches', cursive;
+text-align: center;
+gap: 50px;
+        }
+    .main{
+       
+        width: 650px;
+        height: 500px;
+        background-color: #1a5a92;
+        border-radius: 10px;
+    }
+    h1{
+        color: black;
+        padding-bottom: 7.5%;
+    }
+#drop{
+    padding-bottom: 10%;
+}
+#btn{
+    padding: 2% 5.2% 2% 5.2%;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: all ease 0.8s;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+   display: flex;
+   justify-content: center;
+}
+    </style>
+</head>
+<body style="background-color: #22303c">
+<div class="container fluid">
+    
+    <div class="main">
+        <h1>Make a Joke For Me</h1>
+        <div id="drop" class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Select Language
+            </button>
+            <ul class="dropdown-menu">
+              <li><a onclick="funcEng()" class="dropdown-item" href="#">English</a></li>
+              <li><a onclick="funcUrdu()"class="dropdown-item" href="#">Urdu</a></li>
+            </ul>
+          </div>
+          <button type="button" id="btn">Click Here</button>
+        <br>
+        <h3 id="write">HELLO</h3>
+
+    </div>
+</div>
+
+   
+    <script src="./app.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
